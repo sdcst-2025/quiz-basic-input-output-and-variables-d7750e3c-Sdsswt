@@ -2,7 +2,14 @@
 """
 Debug this program so that it runs
 """
-x = input("Enter a number")
+
+x = input("enter a number ")
+x = int(x)
+
 y = 2
-answer = x+y
-print(The answer is + answer)
+y = int(y)
+
+answer = x + y
+answer = int(answer)
+
+print(f"The answer is {answer}")
